@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditView_ImageViewActivity"
+    android:orientation="vertical"
+    >
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/Sign_up"
+       android:textSize="55sp"
+       android:gravity="center"
+       android:layout_marginTop="200dp"
+       android:textStyle="bold"
+       android:textColor="#0628E3"
+
+       />
+
+   <ImageView
+       android:layout_width="400dp"
+       android:layout_height="200dp"
+       android:backgroundTint="#BC0000"
+       android:contentDescription="@string/Sign_up"
+       android:src="@drawable/sign"
+       tools:ignore="ImageContrastCheck"
+       android:scaleType="fitXY"
+
+       />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       android:layout_marginTop="21dp"
+       android:hint="@string/write_your_email"
+       android:inputType="textEmailAddress"
+       android:minHeight="48dp"
+       android:textColorHint="#D31A0C" />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       android:layout_marginTop="21dp"
+       android:hint="@string/write_your_password"
+       android:inputType="textPassword"
+       android:minHeight="48dp"
+       android:textColorHint="#D31A0C" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       android:layout_marginTop="21dp"
+       android:hint="@string/Phone_Number"
+       android:inputType="phone"
+       android:minHeight="48dp"
+       android:textColorHint="#D31A0C" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+      <ImageView
+          android:layout_width="50dp"
+
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:src="@drawable/home"
+          android:layout_marginStart="20dp"
+          android:padding="5dp"
+          app:tint="#E91E63"
+      />
+
+      <ImageView
+          android:layout_width="50dp"
+
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:src="@drawable/sea"
+          android:layout_marginStart="100dp"
+          android:padding="5dp"
+          app:tint="#FF9800"
+          />
+      <ImageView
+          android:layout_width="50dp"
+
+          android:layout_height="50dp"
+          android:layout_gravity="center"
+          android:src="@drawable/user"
+          android:layout_marginStart="100dp"
+          android:padding="5dp"
+          app:tint="#0028EF" />
+
+
+   </LinearLayout>
+</LinearLayout>

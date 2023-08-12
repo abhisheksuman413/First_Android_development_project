@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button_CheackBox_RadioButton_ImageButton_ViewActivity"
+    android:orientation="vertical"
+    >
+
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:backgroundTint="#BC0000"
+        android:contentDescription="@string/Sign_up"
+        android:src="@drawable/sign"
+        tools:ignore="ImageContrastCheck"
+        android:scaleType="fitXY"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="21dp"
+        android:hint="@string/write_your_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#D31A0C" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="21dp"
+        android:hint="@string/write_your_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#D31A0C" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="21dp"
+        android:hint="@string/Phone_Number"
+        android:inputType="phone"
+        android:minHeight="48dp"
+        android:textColorHint="#D31A0C" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="Male"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:text="Female"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:textStyle="bold"
+            android:layout_marginLeft="130dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Sign_up"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#E30B0B"
+            android:backgroundTint="#F1B706"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+<!--        <ImageView-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="201dp"-->
+<!--            android:src="@drawable/home"-->
+<!--            android:layout_marginLeft="37dp"-->
+<!--            app:tint="#E91E63"-->
+<!--            />-->
+
+
+        <ImageButton
+            android:layout_width="111dp"
+            android:layout_height="111dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="45dp"
+            android:src="@android:drawable/ic_delete"
+            android:backgroundTint="@color/white"
+
+            />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="201dp"
+            android:layout_marginLeft="79dp"
+            android:src="@drawable/sea"
+
+            app:tint="#FF9800"
+            tools:ignore="ImageContrastCheck" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="201dp"
+            android:src="@drawable/user"
+            android:layout_marginLeft="65dp"
+            app:tint="#0028EF" />
+    </LinearLayout>
+</LinearLayout>

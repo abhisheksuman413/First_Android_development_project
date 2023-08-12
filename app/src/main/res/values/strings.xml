@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">first app</string>
+    <string name="welcome_to_sit">Welcome to SIT</string>
+    <string name="cse">Welcome to CSE</string>
+    <string name="Sign_up">Sign UP</string>
+    <string name="write_your_email">Write your email</string>
+    <string name="write_your_password">Write your Password</string>
+    <string name="Phone_Number">Your Phone Number</string>
+</resources>
