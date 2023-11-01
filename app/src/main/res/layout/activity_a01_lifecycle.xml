@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:backgroundTint="#861C1B1F"
+    tools:context=".Relative_Activity"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="301dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:padding="5dp"
+        android:src="@drawable/ps" />
+
+    <EditText
+        android:id="@+id/et_Email"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/imageview1"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/write_your_email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#EF0B0B"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/et_Email"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/write_your_password"
+        android:inputType="textPassword"
+        android:textColorHint="#EF0B0B"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="255dp"
+        android:layout_height="49dp"
+        android:layout_below="@id/edittext2"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/Phone_Number"
+        android:inputType="phone"
+        android:textColorHint="#EF0B0B"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext3"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/Sign_up" />
+
+
+</RelativeLayout>

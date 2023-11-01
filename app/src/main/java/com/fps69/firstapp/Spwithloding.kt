@@ -39,6 +39,7 @@ class Spwithloding : AppCompatActivity() {
             super.onPostExecute(result)
 
             startActivity(Intent(this@Spwithloding,Webview::class.java))
+            finish()
         }
 
 
